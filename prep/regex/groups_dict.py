@@ -1,5 +1,6 @@
 import re
 
+
 def find_repeating_character(s):
     # Define a regular expression pattern to find alphanumeric repeating characters
     pattern = r'([a-zA-Z0-9])\1+'
@@ -14,6 +15,7 @@ def find_repeating_character(s):
     else:
         # No repeating character found
         return -1
+
 
 # Input the string
 input_string = input().strip()
